@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blogs by Parth</title>
+        <style>
+            
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f2f2f2;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #header {
+                background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+                background-size: cover;
+                border-radius: 5px;
+                text-align: center;
+                padding: 2px;
+                margin: 10px;
+                font-size: 30px;
+                color: #3b464c;
+                font-weight: bold;
+            }
+
+            #header img {
+                display: block;
+                width: 80px;
+                height: 80px;
+                margin: auto;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            button {
+                border-radius: 10px;
+                font-size: 18px;
+                padding: 10px 24px;
+                color: white;
+                border: 1px;
+                width: 175px;
+                opacity: 0.6;
+                transition: 0.3s;
+                text-decoration: none;
+                cursor: pointer;
+            }                   
+
+            .active, button:hover {opacity: 1}
+
+            .nbutton1 {background-color: #1fdecf; margin-right: 10px;}
+            .nbutton2 {background-color: #5daae3;margin-right: 10px;} 
+            .nbutton3 {background-color: #1429e7;margin-right: 10px;}
+            .nbutton4 {background-color: #14e769;}
+
+            p {
+                padding: 0;
+                margin: 0;
+            }
+
+            .card {
+                background-color: white;
+                padding: 20px;
+                margin-top: 11px;
+                text-align: center;
+                }
+
+            span {
+                border: 4px dashed #20bcd5;
+                padding: 10px;
+            }
+
+            .leftcolumn {   
+                float: left;
+                width: 75%;
+                }
+
+            .rightcolumn {
+                float: left;
+                width: 23%;
+                padding-left: 20px;
+                }
+
+            table, tr, th {
+                border: 1px solid #20bcd5;
+            }
+
+            .table {
+                margin-left: 41%;
+                margin-right: 40%;
+            }
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+
+            .footer {
+                text-align: center;
+            }
+
+            .footer img {
+                width: 4%;
+                height: 4%;
+            }
+
+            .rightcolumn img {
+                margin-top: 15px;
+            }
+
+            /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 800px) {
+            .leftcolumn, .rightcolumn {   
+                width: 100%;
+                padding: 0;
+            }
+        }    
+        </style> 
+    </head>
+    
+    <body>
+         <!-- header start --> 
+        
+        <div id="header" class="section">
+            <h1> Blogs By Parth </h1>
+        </div>
+
+        <!-- header end -->
+
+        <nav>
+            <a href="/home/parth5682/Visual Studio code/Portfolio Blog/Front_Page.html">
+                <button class="button nbutton1"><b>COMPUTER</b></button>
+            </a> 
+            
+            <button class="nbutton2"><b>TRAVEL</b></button>
+            <button class="nbutton3"><b>CAFE</b></button>
+            <button class="nbutton4 active"><b>ABOUT ME</b></button>
+            
+        </nav>
+
+
+        <div class="row">
+            <div class="leftcolumn">
+                <!-- About Me section start -->
+                <div class="card">
+                    <h1>
+                        <span>
+                            About Me
+                        </span>
+                    </h1>
+                    <p>
+                    Hey! I'm <strong>Parth</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites and use my coding skills to get a better job. And I learned it all at <strong>SoloLearn</strong> where they build your self-esteem and keep you motivated. Join me in this rewarding journey. You'll have fun, get help, and learn along the way!
+                    </p>
+                    <p class="quote">"Declare variables, not war"</p>
+                </div>
+                <!-- About Me section end -->
+
+                <!-- My Skills section start -->
+                <div class="card">
+                    <h1>
+                        <span>
+                            My Skills
+                        </span>
+                    </h1>
+                    <div class="table">
+                        <table>
+                            <tr>
+                                <th>Language</th>
+                                <th>Proficiency</th>
+                            </tr>
+                            <tr>
+                                <th>Python</th>
+                                <th>Beginner</th>
+                            </tr><tr>
+                                <th>Java</th>
+                                <th>Beginner</th>
+                            </tr>
+                            <tr>
+                                <th>C</th>
+                                <th>Beginner</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- My Skills section end -->
+            </div>
+        <!-- Left column ends -->
+            <div class="rightcolumn">
+                <img alt="Parth kalra" src="/home/parth5682/Downloads/20220826_105148.jpg" style="width: 100%; height: 100%">                
+            </div>
+        </div>
+
+        <!-- Contacts section start -->
+        <div class="card">
+            <div class="footer">
+                <h1><span>Follow Me</span></h1>
+                <!-- <div> -->
+                    <a href="https://www.sololearn.com/" target="_blank">
+                        <img style="margin-right: 10px" alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+                    </a>
+                    <a href="https://github.com/Parth1907">
+                        <img style="margin-right: 10px" alt="Github" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/parth-kalra-740382254">
+                        <img alt="LinkedIn" src="https://cdn3.iconfinder.com/data/icons/inficons/512/linkedin.png" />
+                    </a>
+            </div>
+        </div>
+        <!-- Contacts section end -->
+
+    </body>
+</html>

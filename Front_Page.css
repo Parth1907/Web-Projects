@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header {
+    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    text-align: center;
+    padding: 2px;
+    margin: 10px;
+    font-size: 30px;
+    color: #3b464c;
+    font-weight: bold;
+}
+
+#header img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 24px;
+    color: white;
+    border: 1px;
+    width: 175px;
+    opacity: 0.6;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.active, button:hover {opacity: 1}
+
+.nbutton1 {background-color: #1fdecf; margin-right: 10px;}
+.nbutton2 {background-color: #5daae3;margin-right: 10px;} 
+.nbutton3 {background-color: #1429e7;margin-right: 10px;}
+.nbutton4 {background-color: #14e769;}
+
+.Page_Heading {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #535f5c;
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    
+}
+
+.content {
+    text-align: center;
+}
+
+.content button {
+    width: 40%;
+    color: black;
+    text-align: left;
+    background-color: white;
+}
+
+.content button img {
+    width: 100%; 
+}
+
+/* Blog Content Formatting Starts*/
+.BlogImage {
+    text-align: center
+}
+
+.Blog {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Blog Content Formatting Ends*/
+
+footer {
+    background-color: gray;
+    color: white;
+    padding: 2px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+}
+
+footer li a {
+    padding: 6px;
+}
+
+a:link {color:white; text-decoration:none;}
+a:visited {color:white; text-decoration:none;}
+a:hover {color:white; text-decoration:underline;}
+
+
+@media screen and (max-width: 800px) {
+    .content button{
+        display: block;
+        width: 100%;
+    }
+
+
+}
+
