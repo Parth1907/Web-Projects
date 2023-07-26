@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: blue;
+    display: flex;
+    place-content: center;
+    /* align-content:center; */
+}
+
+.converter{
+    background: white;
+    border-radius: 16px;
+    margin: 100px 0px 0px 0px;
+
+    padding: 16px;
+    width: 500px; 
+    text-align: center;
+    /* place-content: center; */
+}
+
+#currency-converter label{
+    display: block;
+    margin-left: 12.5%;
+    text-align: left;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#currency-converter input, 
+#currency-converter button{
+    width: 75%;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.result {
+    font-size: 1.2rem;
+}
+
+.exchange-rate {
+    font-size: 1rem;
+}
+/* .converter {
+    background: white;
+    display: block;
+    width: 75vh;
+    height: 75vh;
+
+} */
