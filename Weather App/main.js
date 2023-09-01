@@ -1,4 +1,4 @@
-const API_KEY="4d05def09995465f19af8c91c47177a9";
+const API_KEY=""; // create and enter your own api on openweather api 
 const DAYS_OF_THE_WEEK=["sun","mon","tue","wed","thu","fri","sat"];
 let selectedCityText;
 let selectedCity;
