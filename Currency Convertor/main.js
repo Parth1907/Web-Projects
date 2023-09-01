@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", ()=> {
 
         const { target:{from,to,amount}}=event;
         let headers=new Headers();
-        headers.append("apikey","XW5gn8l2QdUiiurZW0ICteYLTINqWpma");
+        headers.append("apikey","");//enter your own api key, from account on apilayer, in 2nd argument 
 
         const requestOptions ={
             method: "GET",headers,
